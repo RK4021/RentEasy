@@ -18,3 +18,50 @@
     font-size: 100px;
 }
 >>>>>>> ace3a49b325e7150252c97be0a0c99b1d91eddb8
+
+
+/* FOOTER CSS */
+body{
+    justify-content: end;
+}
+.grid-footer{
+  
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 10px;
+}
+
+.item{
+   
+    margin: 20px;
+    height: 50px;
+    /* border: 2px solid grey; */
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 5px 5px ;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:black;
+    margin-top: auto;
+}
+
+.item ul li a:hover{
+    color: yellow;;
+}
+
+.item ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+img{
+    padding: 5px 5px 5px 5px;
+}
