@@ -2,3 +2,11 @@
     color: red;
     font-size: 100px;
 }
+
+/* hero -section */
+.topbar.hero-section{
+    background-color: yellow;
+    font-size: xx-large;
+    color: #9999;
+}
+
