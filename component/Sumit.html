@@ -1,0 +1,52 @@
+<!-- Login Box For RentEasy -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pop-Up</title>
+    <link rel="stylesheet" href="RentEasyCSS.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+
+<body id="loginBox-body">
+
+    <div id="loginBox-div">
+        <div id="close-btn">&times;</div>
+        <h1>Login</h1>
+
+        <div>
+            Not Registered?<span id="signup">&nbsp;&nbsp;SignUp</span>
+        </div><br>
+
+            <!-- Form Section -->
+        <form action="" onsubmit="return validate()">
+            
+            <input type="text" placeholder="Email" id="email"><br>
+            <p id="emailError" class="err"></p>
+
+            <input type="text" placeholder="Password" id="password"><br>
+            <p id="passError" class="err"></p>
+           
+            <button id="login-now">LOGIN NOW</button><br>
+            <p id="forget-password">Forget Password?</p>
+
+            <p style="color:#baa5a5" id="or">-----or-----</p>
+
+            <p>Login using social media accounts</p>
+
+            <!-- images -->
+            <img src="google.png" alt="" style="height: 40px; width: 40px; padding: 8px;">
+            <img src="facebook.png" alt="" style="height: 40px; width: 40px; padding: 8px;">
+            <img src="twitter.png" alt="" style="height: 40px; width: 40px; padding: 8px;">
+
+        </form>
+    </div>
+    <script src="RentEasyLogin.js"></script>
+</body>
+
+</html>
