@@ -1,0 +1,30 @@
+
+
+.btn{
+    border: none;
+    padding: .6rem 1.8rem;
+    border-radius: var(--border-radius);
+    display: inline-block;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(.9);
+    transition: all .200s ease-in-out;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+}
+.btn-secondary{
+    background-color: var(--secondary-color);
+}
+.btn-tertiary{
+    background-color: var(--tertiary-color);
+}
+
+
+.btn-large{
+    font-size: 2.2rem;
+    padding: 1.4rem 3.8rem;
+    font-weight: 500;
+}
