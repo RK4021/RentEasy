@@ -1,0 +1,19 @@
+.hero-container {
+  height: 100vh;
+
+  .hero-heading {
+    font-size: 68px;
+    font-weight: bolder;
+  }
+
+  .hero-img {
+    // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: #f15266 5px 5px, #f47585 10px 10px, #f797a3 15px 15px,
+      #fbcbd1 20px 20px, #feeef0 25px 25px;
+
+    background-image: url("../../../assets/images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
